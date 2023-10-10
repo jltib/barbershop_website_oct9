@@ -1,0 +1,86 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Open+Sans:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: rgb(85,85,85);
+}
+
+/* TRANSITION */
+
+a, 
+.btn {
+    transition: all 300ms ease;
+}
+
+/* DESKTOP NAV */
+
+nav,
+.nav-links,
+.book-button {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    height: 17vh;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5 rem;
+    font-weight: 600;
+}
+
+.nav-links li { /* vertically aligns list els */
+    display: flex;
+    align-items: center;
+}
+
+.book-button {
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    cursor: pointer;
+}
+
+.book-button:hover {
+    background-color: darkgrey;
+} 
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
