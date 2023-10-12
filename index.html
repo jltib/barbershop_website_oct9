@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
     <body>
+
+        <!-- nav_bar: logo (left), website sections (right), book now button (right) -->
         <nav id="desktop-nav">
             <div class="logo">
-                <img src="assets/placeholder_logo.png" alt="Logo">
+                <img src="./assets/placeholder_logo.png" alt="Logo">
             </div>
             <div>
                 <ul class="nav-links">
@@ -21,6 +23,49 @@
                 </ul>
             </div>
         </nav>
+
+        <!-- hero_section -->
+        <div class="main">
+            <div class="main__container">
+
+                <!-- column1 -->
+                <div class="main__content">
+                    <h1>TOP DOG<br>BARBERSHOP</h1>
+                    <h2>12554 Centralia St. Lakewood CA</h2>
+                    <h2>(562) 219-5922</h2>
+                    <!-- 'view services' button -->
+                    <div class="main__btn--container">
+                        <button class="main__btn"><a href="/">View Services</a></button>
+                    </div>
+                </div>
+
+                <!-- column2
+                <div class="main__img--container">
+                    <img src="./assets/placeholder_gal.jpg" alt="placeholder" id="main__img">
+                </div> -->
+
+                <!-- column2 carosel (deprecate ^ when done) -->
+                <div class="container">
+                    <div class="slider-wrapper">
+                        <div class="slider">
+                            <img id="slide-1" src="./assets/slide_1.jpg" alt="placeholder" >
+                            <img id="slide-2" src="./assets/slide_2.jpg" alt="placeholder" >
+                            <img id="slide-3" src="./assets/slide_3.jpg" alt="placeholder" >                        
+                        </div>
+                        <div class="slider-nav">
+                            <a href="#slide-1"></a>
+                            <a href="#slide-2"></a>
+                            <a href="#slide-3"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div> 
+         
+         
         <script src="script.js"></script>
     </body>
 </html>
+
+
